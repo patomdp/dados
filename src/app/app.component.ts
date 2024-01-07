@@ -28,4 +28,8 @@ export class AppComponent {
     this.dadoIzquierda = `../assets/img/dice${this.numero1}.png`;
     this.dadoDerecha = `../assets/img/dice${this.numero2}.png`;
   }
+
+  checkLadron(){
+    
+  }
 }
