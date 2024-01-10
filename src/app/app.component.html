@@ -5,5 +5,14 @@
   <img [src]="dadoDerecha" alt="dado-derecha" class="img img-2">
 
   <h1 *ngIf="numero1 + numero2 === 7"><span class="badge text-bg-secondary"> LADRÓN! </span></h1>
+
+  <ctimer-countdown-timer
+  *ngIf="isCountDown"
+  class="wrapper"
+  #countdownTimer
+  ></ctimer-countdown-timer>
+  <!-- [finishDateString]="resetTime" -->
+  <!-- <button class="btn btn-primary btn-lg" (click)="resetTimer()">Reset Timer</button> -->
+ 
   
 </div>
